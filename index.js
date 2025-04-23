@@ -124,3 +124,19 @@ app.patch('/juegos/:id', (req, res) => {
     res.json(juego);
 });
 
+app.delete('/usuarios/:id', (req, res) => {
+    const data = fs.readFileSync(dataPath, 'utf8');
+    let juegos = JSON.parse(data);
+    const id = parseInt(req.params.id);
+
+    const juego = juegos.find(j => j.id === id);
+
+    if(!juego){
+        return res.status(404).send('Juego no existe!');
+    };
+
+    juegos = juegos.filter(j => j.id !== id);
+
+    fs.writeFileSync(dataPath, JSON.stringify(juegos, null, 4));
+    res.send('Juego Eliminado');
+});
