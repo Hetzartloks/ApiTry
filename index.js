@@ -1,13 +1,12 @@
 const express = require('express'); //basicamente es importar express
-const app = express(); //usamos el alias APP para referirnos a express
-const PORT = 3000; // es el puerto que usaremos
+const app = express();             //usamos el alias APP para referirnos a express
+const PORT = 3000;                // es el puerto que usaremos
 
-app.use(express.json()); //para leer json
+app.use(express.json());        //para leer json / Middleware
 
 
-const fs = require('fs');
-const path = require('path');
-const { json } = require('stream/consumers');
+const fs = require('fs');      //importacion de FileSystem
+const path = require('path'); //importacion de Path
 
 const dataPath = path.join(__dirname, 'juegos.json')
 
@@ -21,13 +20,14 @@ app.listen(PORT, () => {
     console.log(`Servidor corriendo (http://localhost:${PORT})`);
 });
 
-//Get para obtener TODOS los juegos
+//GET para obtener TODOS los juegos
 app.get('/juegos', (req, res) => {
     const data = fs.readFileSync(dataPath, 'utf8');
     const juegos = JSON.parse(data);
     res.json(juegos);
 });
 
+//GET para encontrar juego por ID
 app.get('/juegos/:id', (req, res) => {
     const data = fs.readFileSync(dataPath, 'utf8');
     const juegos = JSON.parse(data);
@@ -42,6 +42,7 @@ app.get('/juegos/:id', (req, res) => {
     res.json(juego);
 });
 
+//POST generico para juegos
 app.post('/juegos', (req, res) => {
     const data = fs.readFileSync(dataPath, 'utf8');
     const juegos = JSON.parse(data);
@@ -63,6 +64,7 @@ app.post('/juegos', (req, res) => {
     res.status(201).json(nuevoJuego);
 });
 
+//PUT para actualizar juego por ID
 app.put('/juegos/:id', (req, res) => {
     const data = fs.readFileSync(dataPath, 'utf8');
     const juegos = JSON.parse(data);
@@ -85,6 +87,7 @@ app.put('/juegos/:id', (req, res) => {
     res.json(juego);
 });
 
+//PATCH para actualizar CAMPO de juego por ID
 app.patch('/juegos/:id', (req, res) => {
     const data = fs.readFileSync(dataPath, 'utf8');
     const juegos = JSON.parse(data);
