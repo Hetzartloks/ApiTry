@@ -124,7 +124,7 @@ app.patch('/juegos/:id', (req, res) => {
     res.json(juego);
 });
 
-app.delete('/usuarios/:id', (req, res) => {
+app.delete('/juegos/:id', (req, res) => {
     const data = fs.readFileSync(dataPath, 'utf8');
     let juegos = JSON.parse(data);
     const id = parseInt(req.params.id);
