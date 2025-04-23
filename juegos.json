@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "nombre": "Metro 2033",
+        "genero": [
+            "Posapocaliptico",
+            "FPS"
+        ],
+        "desarrollador": "4A Games",
+        "editor": "Deep Silver",
+        "stock": 2,
+        "descripcion": "In 2013 the world was devastated by an apocalyptic event, annihilating almost all mankind and turning the Earth's surface into a poisonous wasteland. A handful of survivors took refuge in the depths of the Moscow underground, and human civilization entered a new Dark Age. The year is 2033.",
+        "precio": 14989
+    },
+    {
+        "id": 2,
+        "nombre": "The Last Of Us Part II (Remastered)",
+        "genero": [
+            "Posapocaliptico",
+            "LGBTQ+",
+            "Survival Horror"
+        ],
+        "desarrollador": "Naughty Dog LLC",
+        "editor": "PlayStation Publishing LLC",
+        "stock": 5,
+        "descripcion": "Experimenta al ganador de más de 300 premios Game of the Year, ahora en PC. Descubre la historia de Ellie y Abby con mejoras gráficas, modos de supervivencia de estilo roguelike en Sin retorno y mucho más.",
+        "precio": 35000
+    },
+    {
+        "id": 3,
+        "nombre": "Ender Lilies",
+        "genero": [
+            "Metroidvania"
+        ],
+        "desarrollador": "Live Wire",
+        "editor": "Binary Haze",
+        "stock": 8,
+        "descripcion": "ENDER LILIES is a dark fantasy 2D action RPG about unraveling the mysteries of a destroyed kingdom. On this sorrowful journey, encounter horrific enemies against whom a moment of inattention could be fatal. Overcome these hardships and seek the truth with the help of fallen knights.",
+        "precio": 9500
+    }
+]

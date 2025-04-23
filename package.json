@@ -3,20 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hetzartloks/ApiTry.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hetzas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Hetzartloks/ApiTry/issues"
   },
   "homepage": "https://github.com/Hetzartloks/ApiTry#readme",
-  "description": "",
+  "description": "API REST basica con Express para Render",
   "dependencies": {
     "express": "^5.1.0"
   }
