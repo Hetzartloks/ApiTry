@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "email": "Pepito@duocuc.cl",
+        "Password": "Pepito123",
+        "UserName": "Pepito max"
+    },
+    {
+        "id": 2,
+        "email": "Juanito@duocuc.cl",
+        "Password": "Juanito123",
+        "UserName": "Juan32"
+    },
+    {
+       "id": 3,
+        "email": "Pablito@duocuc.cl",
+        "Password": "Pablito123",
+        "UserName": "Pablito boss"
+    
+    },
+    {
+       "id": 4,
+        "email": "Claudio@duocuc.cl",
+        "Password": "Claudio123",
+        "UserName": "Claudio rex"
+    }
+]
