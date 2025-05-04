@@ -1,27 +1,260 @@
 [
     {
         "id": 1,
+        "email": "Claudio@duocuc.cl",
+        "Password": "Claudio123",
+        "UserName": "Claudio rex"
+    },
+    {
+        "id": 2,
+        "email": "mateo.gonzalez@duocuc.cl",
+        "Password": "Mateo123",
+        "UserName": "Mateo González"
+    },
+    {
+        "id": 3,
+        "email": "isabella.torres@duocuc.cl",
+        "Password": "Isa123",
+        "UserName": "Isabella Torres"
+    },
+    {
+        "id": 4,
+        "email": "benjamin.reyes@duocuc.cl",
+        "Password": "Benja123",
+        "UserName": "Benjamín Reyes"
+    },
+    {
+        "id": 5,
+        "email": "emilia.fernandez@duocuc.cl",
+        "Password": "Emi123",
+        "UserName": "Emilia Fernández"
+    },
+    {
+        "id": 6,
+        "email": "santiago.mendez@duocuc.cl",
+        "Password": "Santi123",
+        "UserName": "Santiago Méndez"
+    },
+    {
+        "id": 7,
+        "email": "valentina.rios@duocuc.cl",
+        "Password": "Vale123",
+        "UserName": "Valentina Ríos"
+    },
+    {
+        "id": 8,
+        "email": "nicolas.castro@duocuc.cl",
+        "Password": "Nico123",
+        "UserName": "Nicolás Castro"
+    },
+    {
+        "id": 9,
+        "email": "camila.silva@duocuc.cl",
+        "Password": "Cami123",
+        "UserName": "Camila Silva"
+    },
+    {
+        "id": 10,
+        "email": "lucas.soto@duocuc.cl",
+        "Password": "Lucas123",
+        "UserName": "Lucas Soto"
+    },
+    {
+        "id": 11,
+        "email": "martina.mora@duocuc.cl",
+        "Password": "Martina123",
+        "UserName": "Martina Mora"
+    },
+    {
+        "id": 12,
+        "email": "tomas.vasquez@duocuc.cl",
+        "Password": "Tomas123",
+        "UserName": "Tomás Vásquez"
+    },
+    {
+        "id": 13,
+        "email": "antonella.leiva@duocuc.cl",
+        "Password": "Anto123",
+        "UserName": "Antonella Leiva"
+    },
+    {
+        "id": 14,
+        "email": "diego.martinez@duocuc.cl",
+        "Password": "Diego123",
+        "UserName": "Diego Martínez"
+    },
+    {
+        "id": 15,
+        "email": "florencia.palma@duocuc.cl",
+        "Password": "Flopy123",
+        "UserName": "Florencia Palma"
+    },
+    {
+        "id": 16,
+        "email": "maximiliano.vera@duocuc.cl",
+        "Password": "Maxi123",
+        "UserName": "Maximiliano Vera"
+    },
+    {
+        "id": 17,
+        "email": "trinidad.navarro@duocuc.cl",
+        "Password": "Trini123",
+        "UserName": "Trinidad Navarro"
+    },
+    {
+        "id": 18,
+        "email": "agustin.sanhueza@duocuc.cl",
+        "Password": "Agus123",
+        "UserName": "Agustín Sanhueza"
+    },
+    {
+        "id": 19,
+        "email": "josefa.carrasco@duocuc.cl",
+        "Password": "Jose123",
+        "UserName": "Josefa Carrasco"
+    },
+    {
+        "id": 20,
+        "email": "vicente.lagos@duocuc.cl",
+        "Password": "Vicente123",
+        "UserName": "Vicente Lagos"
+    },
+    {
+        "id": 21,
+        "email": "renata.rojas@duocuc.cl",
+        "Password": "Renata123",
+        "UserName": "Renata Rojas"
+    },
+    {
+        "id": 22,
+        "email": "martin.sandoval@duocuc.cl",
+        "Password": "Martin123",
+        "UserName": "Martín Sandoval"
+    },
+    {
+        "id": 23,
+        "email": "fernanda.garrido@duocuc.cl",
+        "Password": "Fer123",
+        "UserName": "Fernanda Garrido"
+    },
+    {
+        "id": 24,
+        "email": "joaquin.valdes@duocuc.cl",
+        "Password": "Joaquin123",
+        "UserName": "Joaquín Valdés"
+    },
+    {
+        "id": 25,
+        "email": "amparo.perez@duocuc.cl",
+        "Password": "Amparo123",
+        "UserName": "Amparo Pérez"
+    },
+    {
+        "id": 26,
+        "email": "facundo.araya@duocuc.cl",
+        "Password": "Facu123",
+        "UserName": "Facundo Araya"
+    },
+    {
+        "id": 27,
+        "email": "constanza.salazar@duocuc.cl",
+        "Password": "Coni123",
+        "UserName": "Constanza Salazar"
+    },
+    {
+        "id": 28,
+        "email": "sebastian.molina@duocuc.cl",
+        "Password": "Sebas123",
+        "UserName": "Sebastián Molina"
+    },
+    {
+        "id": 29,
+        "email": "catalina.fuentes@duocuc.cl",
+        "Password": "Cata123",
+        "UserName": "Catalina Fuentes"
+    },
+    {
+        "id": 30,
+        "email": "felipe.saavedra@duocuc.cl",
+        "Password": "Felipe123",
+        "UserName": "Felipe Saavedra"
+    },
+    {
+        "id": 31,
+        "email": "paula.munoz@duocuc.cl",
+        "Password": "Paula123",
+        "UserName": "Paula Muñoz"
+    },
+    {
+        "id": 32,
+        "email": "andres.ojeda@duocuc.cl",
+        "Password": "Andres123",
+        "UserName": "Andrés Ojeda"
+    },
+    {
+        "id": 33,
+        "email": "daniela.quintana@duocuc.cl",
+        "Password": "Daniela123",
+        "UserName": "Daniela Quintana"
+    },
+    {
+        "id": 34,
+        "email": "leonardo.espinoza@duocuc.cl",
+        "Password": "Leo123",
+        "UserName": "Leonardo Espinoza"
+    },
+    {
+        "id": 35,
+        "email": "carla.bustos@duocuc.cl",
+        "Password": "Carla123",
+        "UserName": "Carla Bustos"
+    },
+    {
+        "id": 36,
+        "email": "francisco.cabrera@duocuc.cl",
+        "Password": "Fran123",
+        "UserName": "Francisco Cabrera"
+    },
+    {
+        "id": 37,
+        "email": "valeria.poblete@duocuc.cl",
+        "Password": "Valeria123",
+        "UserName": "Valeria Poblete"
+    },
+    {
+        "id": 38,
+        "email": "rodrigo.tapia@duocuc.cl",
+        "Password": "Rod123",
+        "UserName": "Rodrigo Tapia"
+    },
+    {
+        "id": 39,
+        "email": "mariana.escobar@duocuc.cl",
+        "Password": "Mari123",
+        "UserName": "Mariana Escobar"
+    },
+    {
+        "id": 40,
+        "email": "cristobal.baeza@duocuc.cl",
+        "Password": "Cris123",
+        "UserName": "Cristóbal Baeza"
+    },
+    {
+        "id": 41,
         "email": "Pepito@duocuc.cl",
         "Password": "Pepito123",
         "UserName": "Pepito max"
     },
     {
-        "id": 2,
+        "id": 42,
         "email": "Juanito@duocuc.cl",
         "Password": "Juanito123",
         "UserName": "Juan32"
     },
     {
-       "id": 3,
+        "id": 43,
         "email": "Pablito@duocuc.cl",
         "Password": "Pablito123",
         "UserName": "Pablito boss"
-    
-    },
-    {
-       "id": 4,
-        "email": "Claudio@duocuc.cl",
-        "Password": "Claudio123",
-        "UserName": "Claudio rex"
     }
 ]
