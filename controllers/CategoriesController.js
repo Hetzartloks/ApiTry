@@ -16,6 +16,8 @@ function getAllCategories() {
     return JSON.parse(data);
 };
 
+
+//funcion para obtener una categoria por el nombre o extracto de un nombre
 function getCategoryByName(name){
     const categories = getAllCategories();
 
