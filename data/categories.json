@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aventura",
+    "descripcion": "Juegos de aventura y exploracion"
+  },
+  {
+    "id": 2,
+    "nombre": "Shooter",
+    "descripcion": "Juegos de disparos y armas"
+  }
+]
