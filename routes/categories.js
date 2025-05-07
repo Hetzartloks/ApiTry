@@ -22,7 +22,7 @@ router.get('/', (req, res) => {
 
 
 //GET categories por ID (no utilizable en el futuro, solo para evaluacion)
-router.get('/:id', (req) => {
+router.get('/:id', (req, res) => {
     try{
         const id = parseInt(req.params.id, 10); //Convierte el ID a un numero
         const categories = CategoriesController.getAllCategories(); //Obtiene TOOOOODAS las categoriias
