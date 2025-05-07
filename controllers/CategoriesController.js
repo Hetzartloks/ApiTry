@@ -59,6 +59,7 @@ function updateCategory(id, data) {
     return categories[index];
 };
 
+
 function deleteCategory(id) {
     let categories = getAllCategories();
     const exist = categories.some(c => c.id === id);
@@ -70,6 +71,7 @@ function deleteCategory(id) {
     fs.writeFileSync(dataPath, JSON.stringify(categories, null, 2));
     return true;
 };
+
 
 //exportacion de las funciones para utilizarlas desde otros modulos
 module.exports ={
